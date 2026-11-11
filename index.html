@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gobernanza de Datos en el Estado | Curso CONAF</title>
+  <meta name="description" content="Curso online de introducción a la gobernanza de datos en las instituciones del Estado de Chile, aplicado a CONAF.">
+  <link rel="icon" href="https://www.conaf.cl/wp-content/uploads/2023/10/favicon-96x96-1.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+
+  <div class="gob-franja" aria-hidden="true"><span></span><span></span></div>
+
+  <header class="cabecera">
+    <div class="cabecera-inner">
+      <button class="btn-menu" id="btnMenu" aria-label="Abrir menú del curso" aria-controls="menu" aria-expanded="false">☰</button>
+      <a class="logo" id="logo" href="#inicio" aria-label="Inicio del curso">
+        <!-- Se intenta primero el logo local (assets/img/logo-conaf.png); si no existe se usa el del sitio oficial; si tampoco carga, se muestra el texto. -->
+        <img id="logoImg" src="assets/img/logo-conaf.png" alt="CONAF - Corporación Nacional Forestal"
+             data-respaldo="https://www.conaf.cl/wp-content/uploads/2022/02/logos_CONAF_1.png">
+        <span class="logo-texto">CONAF</span>
+      </a>
+      <div class="titulo-curso">
+        <strong>Gobernanza de Datos en el Estado de Chile</strong>
+        <small>Curso de formación interna · Corporación Nacional Forestal</small>
+      </div>
+      <div class="progreso-global" aria-live="polite">
+        <span id="textoProgreso">Avance: 0%</span>
+        <div class="barra" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="barraProgreso"><span></span></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="velo" id="velo"></div>
+
+  <div class="layout">
+    <nav class="menu" id="menu" aria-label="Contenidos del curso">
+      <h2>Curso</h2>
+      <ul id="menuInicio"></ul>
+      <h2>Módulos</h2>
+      <ol id="menuModulos"></ol>
+      <h2>Cierre</h2>
+      <ul id="menuCierre"></ul>
+    </nav>
+
+    <main id="contenido" tabindex="-1">
+      <div class="contenido" id="vista">
+        <noscript><p>Este curso necesita JavaScript habilitado en el navegador.</p></noscript>
+      </div>
+    </main>
+  </div>
+
+  <footer class="pie">
+    <div class="pie-inner">
+      <div>
+        <strong>Corporación Nacional Forestal</strong> · Material de formación interna<br>
+        Contenido actualizado al 11 de noviembre de 2026. Revise la vigencia de las normas antes de cada versión.
+      </div>
+      <div><a href="https://www.conaf.cl" target="_blank" rel="noopener">www.conaf.cl</a> · Emergencias forestales: <strong>130</strong></div>
+    </div>
+  </footer>
+
+  <script src="js/contenido.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
